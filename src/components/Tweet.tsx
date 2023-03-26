@@ -1,27 +1,39 @@
 import './Tweet.css';
-import {ChatCircle} from 'phosphor-react'
+import { Link } from 'react-router-dom';
+import {ArrowsClockwise, ChatCircle, Heart} from 'phosphor-react'
 
-export function Tweet() {
+interface TweetProps{
+  content: string
+}
+
+export function Tweet(props: TweetProps) {
   return(
-    <a href="#" className="tweet">
+    <Link to="/status" className="tweet">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kip_Thorne_by_Christopher_Michel_copy_2022.jpg/1200px-Kip_Thorne_by_Christopher_Michel_copy_2022.jpg" alt="Kip Thorne" />
       <div className="tweet-content">
         <div className="tweet-content-header">
           <strong>Kip Thorne</strong>
           <span>@kipthorne</span>
         </div>
-        <p>
-        Gravitational waves will bring us exquisitely accurate maps of black holes - maps of their space-time.
-        Those maps will make it crystal clear whether or not what we're dealing with are black holes as described
-        by general relativity.
-        </p>
+        <p>{props.content}</p>
 
         <div className="tweet-content-footer">
           <button type="button">
             <ChatCircle/>
+            20
+          </button>
+
+          <button type="button">
+            <ArrowsClockwise/>
+            20
+          </button>
+
+          <button type="button">
+            <Heart/>
+            20
           </button>
         </div>
       </div>
-    </a>
+    </Link>
   )
 }
