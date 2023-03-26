@@ -7,7 +7,7 @@
   Twitter UI
 </h1>
 
-## Clone of the twitter interface using technologies like typescript, reactJs and some tools like <a href="https://vitejs.dev/">vite<a> which served as a development environment, <a href="https://phosphoricons.com/">Phosphor icons<a>which provided us with a library of icons for the interface and finally <a href="https://reactrouter.com/en/main/start/overview"> react-router-dom <a> which allowed us a "client-side routing".
+## Clone of the twitter interface using technologies like typescript, reactJs and some tools like <a href="https://vitejs.dev/">vite<a> which served as a development environment, <a href="https://phosphoricons.com/">Phosphor icons<a> which provided us with a library of icons for the interface and finally <a href="https://reactrouter.com/en/main/start/overview"> react-router-dom <a> which allowed us a "client-side routing".
 
 ## Layout
 
