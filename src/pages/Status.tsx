@@ -9,9 +9,9 @@ import './Status.css'
 export function Status(){
     const [newAnswer, setNewAnswer] = useState('')
     const [answers, setAnswers] = useState( [
-      'Concordo...',
-      'Olha, faz sentido',
-      'Parabens pelo trabalho'
+      'Did someone cut their internet? lol',
+      'Dr. Sheldon Cooper and Dr. amy farrah fowler?',
+      'Any comments? Refutation? </3'
     ])
   
     function createNewAnswer(event: FormEvent){
@@ -37,7 +37,7 @@ export function Status(){
       <Separator />
       <form onSubmit={createNewAnswer} className="answer-tweet-form">
         <label htmlFor="tweet">
-          <img src="https://avatars.githubusercontent.com/u/92121533?v=4" alt="Thegaab" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kip_Thorne_by_Christopher_Michel_copy_2022.jpg/1200px-Kip_Thorne_by_Christopher_Michel_copy_2022.jpg" alt="Kip Thorne" />
           <textarea
           id="tweet"
           placeholder="Tweet your answer"

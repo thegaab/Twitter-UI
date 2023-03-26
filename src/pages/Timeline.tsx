@@ -10,9 +10,9 @@ let newTweet = ''
 export function Timeline() {
   const [newTweet, setNewTweet] = useState('')
   const [tweets, setTweets] = useState([
-    'Meu primeiro tweet',
-    'ai calica',
-    'Deu certo'
+    'Gravitational waves will bring us exquisitely accurate maps of black holes - maps of their space-time. Those maps will make it crystal clear whether or not what we`re dealing with are black holes as described by general relativity.',
+    'Everything likes to live where it will age the most slowly, and gravity pulls it there',
+    'Don’t trust everything I say.'
   ])
 
   function createNewTweet(event: FormEvent){
@@ -33,7 +33,7 @@ export function Timeline() {
 
       <form onSubmit={createNewTweet} className="new-tweet-form">
         <label htmlFor="tweet">
-          <img src="https://avatars.githubusercontent.com/u/92121533?v=4" alt="Thegaab" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Kip_Thorne_by_Christopher_Michel_copy_2022.jpg/1200px-Kip_Thorne_by_Christopher_Michel_copy_2022.jpg" alt="Kip Thorne" />
           <textarea
           id="tweet"
           placeholder="What's happening?"

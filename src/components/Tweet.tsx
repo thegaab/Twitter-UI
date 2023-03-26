@@ -20,17 +20,17 @@ export function Tweet(props: TweetProps) {
         <div className="tweet-content-footer">
           <button type="button">
             <ChatCircle/>
-            20
+            29
           </button>
 
           <button type="button">
             <ArrowsClockwise/>
-            20
+            16
           </button>
 
           <button type="button">
             <Heart/>
-            20
+            32
           </button>
         </div>
       </div>
