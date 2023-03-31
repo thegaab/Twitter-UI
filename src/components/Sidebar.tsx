@@ -1,4 +1,4 @@
-import twitterLogo from '../assets/logo-twitter.svg';
+import twitterLogo from '../Assets/logo-twitter.svg';
 import {Bell, Envelope, BookmarkSimple, Ticket, House, Hash, User, DotsThreeCircle, Pencil} from 'phosphor-react'
 
 import './Sidebar.css'
