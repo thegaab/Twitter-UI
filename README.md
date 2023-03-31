@@ -13,7 +13,7 @@
 
 You can find the application UI design here: <a href="https://www.figma.com/file/Yd3moOKyb4iAVVSm86cpuZ/Twitter-UI-(Community)?node-id=1-937&t=T0jEv2d4u0FeS8Lf-0">twitter UI - Figma<a> 
 #
-  <h1 align="center"> <a target="blank" href="https://twitter-ui-5l33.vercel.app/">Check the aplication<a> </h1>
+  <h1 align="center"> <a href="https://twitter-ui-henna.vercel.app/">Check the aplication<a> </h1>
 <p align="center">
   <img src="https://media.discordapp.net/attachments/955884943383343215/1089697375670521967/Cover.png?width=1121&height=662" width="900" />
 </p>
